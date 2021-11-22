@@ -1,0 +1,50 @@
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:center;
+    background-image: url("../images/green-backgrownd.jpg");
+    background-size: cover;
+    font-style: italic; 
+    font-weight: bold; 
+  }
+
+
+h1 {   text-shadow:goldenrod -1px 1px 0,
+       rgb(233, 226, 226) -2px 2px 0,
+       goldenrod -3px 3px 0,
+       goldenrod -4px 4px 0;
+}
+
+#message-el ,p{
+   color: rgb(233, 226, 226);
+   
+}
+ 
+ 
+button {
+    color : #016f32;
+    width      : 150px;
+    background : goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    border-radius: 2px;
+    font-style: italic; 
+    font-weight: bold; 
+   }
+
+/**put objet in the center of container**/
+.box-container{
+    display: grid;
+    height: 100vh;
+    place-items: center center;
+    
+}
+.box{ 
+    border: 3px solid rgb(233, 226, 226);
+    opacity: 0.8; 
+    margin: 0 auto; 
+    padding: 5%;
+    
+}
